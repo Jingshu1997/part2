@@ -154,7 +154,7 @@ const App = (props) => {
 
       <h1>Phonebook</h1>
       <SO message={successMessage}/>
-         <Notification message={errorMessage}/>
+       <Notification message={errorMessage}/>
       <Filter filter={filter} handleFilterChange={handleFilterChange} />
       <h3>Add a new</h3>
     
@@ -162,7 +162,7 @@ const App = (props) => {
           handlePersonChange={handlePersonChange}handleNumberChange={handleNumberChange}/>
 
        <h1>Number</h1>
-       <Persons persons={personsToShow}/>
+      
        <Persons persons={personsToShow} removePerson={deletePerson}/>
     </div>
 
